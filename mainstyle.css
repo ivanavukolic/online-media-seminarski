@@ -1,0 +1,235 @@
+.header-bottom {
+  height: 100px;
+  background-color: #b2a6ff;
+  -webkit-box-shadow: 0 2px 12px -4px #ccc;
+          box-shadow: 0 2px 12px -4px #ccc;
+}
+.fa-footer {
+  color: #fff;
+  font-size: 16px;
+  margin: 5px 10px;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+  padding: 10px;
+}
+.fa:hover,
+.fa:active {
+  background-color: ;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #b2a6ff;
+}
+.navbar a {
+  float: left;
+  color: #black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.call {
+  color: #636363;
+  font-size: 16px;  
+  -webkit-transition: all .7s;
+  transition: all .7s; 
+  text-decoration: none;
+}
+
+.call:hover {
+  text-decoration: none;
+}
+
+.main-info .fa {
+  margin-left: 30px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body,
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #636363;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.brand {
+  max-width: 120px;
+}
+
+.main-info-wrapper {
+  position: absolute;
+  z-index: 2;
+  padding: 20px;
+  width: 510px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #b2a6ff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+.main-info-wrapper h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #b2a6ff;
+}
+.main-info-wrapper p {
+  font-style: italic;
+}
+.hp-slider-container {
+  padding: 0;
+}
+.content-col {
+  position: relative;
+  background: #fff;
+  padding: 20px 10px;
+}
+.text-wrapper {
+  max-width: 767px;
+  margin: 0 auto;
+  padding: 20px 20px 40px;
+}
+.main-title {
+  position: relative;
+  text-align: center;
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  margin-bottom: 50px;
+  padding: 10px 0 15px;
+}
+.main-title:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 320px;
+  height: 2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #b2a6ff;
+}
+.main-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 320px;
+  height: 2px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #b2a6ff;
+}
+.wrapper-img-01 {
+  float: left;
+  width: 49%; 
+}
+
+.wrapper-img-02 {
+  float: left;
+  width: 30%; 
+  min-width: 200px; 
+  height: 100%;
+}
+.wrapper-img-02 img{
+  width: 95%;
+  height: auto;
+}
+
+.about-text {
+  width: 48%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.eq-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price-list {
+  padding-left: 25px;
+}
+.price-list li {
+  position: relative;
+  padding-right: 80px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #b2a6ff;
+  margin-bottom: 10px;
+}
+.price-list li .price-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 10px 0 0;
+}
+.footer h4 {
+  color: #f5f5f5;
+  text-transform: uppercase;
+}
+.footer p {
+  color: #f5f5f5;
+}
+.footer a {
+  color: #b2a6ff;
+  text-decoration: none;
+}
+.footer .fa {
+  padding: 0;
+}
+.footer .medical-lab {
+  font-size: 18px;
+}
+.footer .footer-bottom {
+  padding: 10px 0;
+  background: #3a3a3a;
+}
+.footer .footer-bottom p {
+  margin-bottom: 0;
+}
+
+.text-wrapper{
+	text-align: center;
+	color: black;
+}
+input {
+	font-size: 25pt;
+	background-color: lightyellow;
+} 

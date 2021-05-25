@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link media="all" type="text/css" rel="stylesheet" href="C:\Users\Admin\Desktop\online media seminarski\bootstrap.css">
+    <link media="all" type="text/css" rel="stylesheet" href="C:\Users\Admin\Desktop\online media seminarski\mainstyle.css">
+    <link media="all" type="text/css" rel="stylesheet" href="C:\Users\Admin\Desktop\online media seminarski\dodatci.css">
+
+
+    <title>
+                    Porodični lekar            </title>
+
+</head>
+
+    <body>
+	
+        <header>
+    <nav class="navbar">
+
+        <div class="header-bottom-row">
+            <div class="container">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="C:\Users\Admin\Desktop\online media seminarski\index.html" >O nama</a></li><li class="active"><a href="javascript:;" >Zakazivanje</a></li><li><a href="C:\Users\Admin\Desktop\online media seminarski\usluge.html ">Usluge</a></li>
+                                                                                
+                                                                                                        
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+
+        </div> <!--FLUID-->
+    </nav>
+</header>
+            
+			<h2 class="main-title">Zakazivanje</h2>			
+
+                <div class="container content-container">
+                    <div class="row">
+                        <div class="text-wrapper">               
+							<form id="slanje" action="/action_page.php">
+								<p class="uppercase">Unesite ime i prezime </p><input type="text" name="imeprezime"><br><br>
+								<p class="uppercase">Unesite datum i vreme </p><input type="text" name="vreme"><br><br>
+								<p class="uppercase">Unesite kontakt telefon </p><input type="text" name="telefon"><br><br>
+								<input type="button" onclick="posalji()" value="Pošalji">
+							</form>
+						</div>
+					</div>
+				</div>	
+<script>
+function posalji() {
+  document.getElementById("slanje").submit();
+}
+</script>
+                
+
+        <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+				<p class="medical-lab">Ordinacija Opšte Medicine</p>               
+            </div>
+            <div class="col-sm-6">
+                <div><a> telefon: 06x xx xx xxx</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Adresa</P>                    
+                </div>
+                <div class="col-sm-6">
+                    <p><span class="uppercase">radnim danima:</span>08:00-18:00</p>
+                    <p><span class="uppercase">subotom:</span>08:00-12:00</p>
+                </div>
+            </div>
+            
+
+
+    </body>
+</html>
