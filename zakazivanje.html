@@ -40,21 +40,21 @@
                 <div class="container content-container">
                     <div class="row">
                         <div class="text-wrapper">               
-							<form id="slanje" action="/action_page.php">
+							<form name="slanje" action="/action_page.php">
 								<p class="uppercase">Unesite ime i prezime </p><input type="text" name="imeprezime"><br><br>
-								<p class="uppercase">Unesite datum i vreme </p><input type="text" name="vreme"><br><br>
+								<p class="uppercase">Unesite datum [dd/mm/gggg ili dd-mm-gggg format] </p><input type="text" name="vreme"><br><br>
 								<p class="uppercase">Unesite kontakt telefon </p><input type="text" name="telefon"><br><br>
-								<input type="button" onclick="posalji()" value="Pošalji">
+								<input type="button" onclick="samoslova(document.slanje.imeprezime);samobroj(document.slanje.telefon);datum(document.slanje.vreme);" value="Pošalji">
 							</form>
 						</div>
 					</div>
 				</div>	
-<script>
-function posalji() {
-  document.getElementById("slanje").submit();
-}
-</script>
-                
+<script src="javascript.js"> </script>
+
+<div class="text-wrapper">
+                                                                
+       <p class="uppercase">Unesite datum, a mi ćemo Vas kontaktirati u vezi vremena.</p>                                                      
+</div>
 
         <footer class="footer">
     <div class="container">
