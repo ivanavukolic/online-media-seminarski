@@ -76,14 +76,13 @@ function datum(inputText)
     var numbers = /^[0-9]+$/;
       if(unos.value.match(numbers))
       {
-      alert('Uspesno ste zakazali termin');
-      document.form1.text1.focus();
+      document.slanje.vreme.focus();
       return true;
       }
       else
       {
       alert('Unesite korektan broj telefona');
-      document.form1.text1.focus();
+      document.slanje.vreme.focus();
       return false;
       }
  }
